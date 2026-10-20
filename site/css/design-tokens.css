@@ -1,0 +1,34 @@
+/* Values traced to the advertising reference's inline :root and controls. */
+@font-face {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 300 900;
+  font-display: swap;
+  src: url("../assets/fonts/nunito-sans-latin-variable.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Arvo";
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../assets/fonts/arvo-italic-400.woff2") format("woff2");
+}
+:root {
+  --wl-black: #0D0D0D;
+  --wl-white: #FFFFFF;
+  --active-blue: #4D49FE;
+  --energy-lime: #DAE55B;
+  --calm-lilac: #DDC7F2;
+  --wl-purple: #8C45D4;
+  --wl-rose: #DF4D65;
+  --secondary: #F5F3F0;
+  --muted-foreground: #5a5a5a;
+  --border: rgba(13,13,13,0.12);
+  --font-sans: "Nunito Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Arvo", ui-serif, Georgia, serif;
+  --container: 80rem;
+  --radius-pill: 9999px;
+  --radius-card: 1.5rem;
+  --focus-ring: 0 0 0 4px rgba(77,73,254,.15);
+  --submit-gradient: linear-gradient(100deg,#4D49FE 0%,#7B78FF 100%);
+}
